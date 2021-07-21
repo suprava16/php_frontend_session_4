@@ -10,20 +10,20 @@
 
 <body>
 
-  <form>
+  <form method="get" action="" enctype="multipart/form-data">
     <div>
-      <input type="text" value="" placeholder="enter name" name="username"><br>
-      <input type="email" placeholder="enter email"><br>
+      <input type="text" value="" placeholder="enter name" name="username" required><br>
+      <input type="email" placeholder="enter email" required><br>
       <input type="date">
     </div>
     <div>
-      <input type="password" placeholder="enter password">
+      <input type="password" placeholder="enter password" required>
     </div>
     <div>
-      <textarea rows="10" cols="50"></textarea>
+      <textarea rows="10" cols="50" required></textarea>
     </div>
     <div>
-      <select>
+      <select required>
         <option>select options</option>
         <option value="option1">option1</option>
         <option value="option2">option2</option>
@@ -32,8 +32,71 @@
         <option value="option5">option5</option>
         <option value="option6">option6</option>
       </select>
+      <select name="selectoption">
+        <option>select options</option>
+        <optgroup label="group1">
+          <option value="option1">option1</option>
+          <option value="option2">option2</option>
+          <option value="option3">option3</option>
+          <option value="option4">option4</option>
+          <option value="option5">option5</option>
+          <option value="option6">option6</option>
+        </optgroup>
+        <optgroup label="group2">
+          <option value="option1">option1</option>
+          <option value="option2">option2</option>
+          <option value="option3">option3</option>
+          <option value="option4">option4</option>
+          <option value="option5">option5</option>
+          <option value="option6">option6</option>
+        </optgroup>
+      </select>
+    </div>
+    <div>
+      select your Gender
+      <input type="radio" name="gender">Male
+      <input type="radio" name="gender">Female
+      <input type="radio" name="gender">Other
+    </div>
+    <div>
+      select your hobbies:
+      <input type="checkbox">dancing
+      <input type="checkbox">singing
+      <input type="checkbox">crafting
+    </div>
+    <div>
+      <span>choose a file</span>
+      <input type="file" required>
+    </div>
+    <div>
+      <!-- <input type="submit" value="register"> -->
+      <button type="submit">Register</button>
+      <input type="reset" value="Reset">
     </div>
   </form>
+  <p>Lorem ipsum dolor, <span style="background-color: orange; color:red">sit amet consectetur</span>adipisicing elit. Sunt iusto
+    a blanditiis doloribus aliquid est nesciunt
+    illo inventore culpa, iste maxime porro temporibus eius, labore, dolorum consequatur atque tempore debitis quia in
+    velit ad id? Repellendus illum, perferendis harum, iste in consequuntur exercitationem laudantium laborum ipsam
+    itaque dolor veniam cupiditate a. Corporis et soluta maiores tempore earum quidem ea eligendi recusandae ullam dolor
+    eum cum officia, beatae facere consectetur, quod numquam perspiciatis rerum placeat. Saepe fuga excepturi neque
+    numquam molestiae voluptates voluptate beatae voluptas odio consequatur blanditiis, molestias, tenetur alias
+    dolorum? Distinctio, eligendi. Quas ipsa, repellendus praesentium dicta perferendis commodi.</p>
+  <span>span 1</span>
+  <span>span 2</span>
+  <span>span 3</span>
+  <span>span 1</span>
+  <span>span 2</span>
+  <span>span 3</span>
+  <label>label 1</label>
+  <label>label 2</label>
+  <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur blanditiis, aspernatur officia asperiores
+    doloremque earum. Corrupti totam qui rem nihil quos omnis id illum expedita veritatis dolores consectetur aliquid
+    corporis excepturi repellendus, vero voluptatum molestias accusantium itaque in beatae quo, quasi esse? Aperiam
+    laudantium quisquam nisi sapiente quibusdam est! Doloribus magni vel, expedita temporibus illo praesentium aut
+    ducimus optio et sunt eum provident maxime molestias a, porro ipsa fugit facere? Voluptatum velit possimus dolor
+    aperiam molestias magnam voluptatibus error earum, nam sunt unde quis iste aliquid vero deserunt laboriosam? Non
+    tenetur laboriosam modi eius id possimus quisquam? Itaque, incidunt numquam?</span>
 </body>
 
 </html>
