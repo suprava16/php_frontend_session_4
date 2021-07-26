@@ -1,8 +1,13 @@
+*{
+  color: crimson;
+}
 
-
-h1{
+/* h1{
   color: red;
 }
 p{
   color: green;
+} */
+div{
+  font-style: italic;
 }
